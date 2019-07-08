@@ -42,6 +42,6 @@ int main(int argc, char **argv)
 	}
 
 	std::cout << "total number of white space inside the file: " << white_space_counter(filestream) << "\n";
-	
+	filestream.close();	
 	return 0;
 }
