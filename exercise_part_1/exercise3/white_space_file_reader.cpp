@@ -12,7 +12,7 @@ int white_space_counter(std::ifstream &fs)
 	{
 		for(itr = buffer.begin(); itr != buffer.end(); ++itr)
 		{
-			if( isspace( *itr ) )
+			if( iswspace( *itr ) )
 				number_of_white_space++;
 		}
 	}	
