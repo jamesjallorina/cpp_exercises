@@ -34,5 +34,6 @@ int main( int argc, char **argv )
 		std::cout << "press enter to continue . . . \n";
 		std::getchar( );
 	}
+	filestream.close();
 	return 0;
 }
