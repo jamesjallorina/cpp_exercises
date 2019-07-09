@@ -1,0 +1,5 @@
+# removed the following files
+*.txt
+*.o
+*.so
+build
