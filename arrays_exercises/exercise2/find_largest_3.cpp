@@ -41,7 +41,11 @@ int main( int argc, char **argv )
 	for( int i = 0; i < arguments; ++i )
 	{
 		if( largest1 < _arr[ i ] )
+		{
+			largest3 = largest2;
+			largest2 = largest1;
 			largest1 = _arr[ i ];
+		}
 		else if (largest2 < _arr[ i ] )
 		{
 			largest3 = largest2; 
