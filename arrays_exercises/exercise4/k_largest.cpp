@@ -27,7 +27,7 @@ int main( int argc, char **argv )
 		
 	if( argc < 2 )
 	{
-		std::cout << "./find_largest [ total number arguments ] [ number of largest elements to show ] [  integer arguments . . . ] \n"; 
+		std::cout << "./k_largest [ total number arguments ] [ number of largest elements to find ] [  integer arguments . . . ] \n"; 
 		return ( -1 );
 	}
 	arguments = atoi( argv[ 1 ] );
@@ -36,7 +36,7 @@ int main( int argc, char **argv )
 	int list_largest[ num_elements ] = { 0 };
 	int save_head = 0;
 	int save_current = 0;
-	/* main algorithm for exercise 1 */	
+	/* main algorithm for exercise */	
 	for( int i = 0; i < arguments; ++i )
 	{
 		/* check if the first largest is less than the current index */

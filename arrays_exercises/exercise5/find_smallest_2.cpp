@@ -33,7 +33,7 @@ int main( int argc, char **argv )
 	}
 	arguments = atoi( argv[ 1 ] );
 	_arr = parse_arguments( argv );
-	/* main algorithm for exercise 5 */	
+	/* main algorithm for exercise */	
 	smallest1 = _arr[ 0 ];	//assign first index 
 	smallest2 = _arr[ 1 ];	//assign second index
 	for( int i = 2; i < arguments; ++i )

@@ -29,14 +29,14 @@ int main( int argc, char **argv )
 		
 	if( argc < 2 )
 	{
-		std::cout << "./find_largest [ total number arguments +  integer arguments . . . ] \n"; 
+		std::cout << "./second_largest [ total number arguments +  integer arguments . . . ] \n"; 
 		return ( -1 );
 	}
 	arguments = atoi( argv[ 1 ] );
 	_arr = parse_arguments( argv );
 	largest1 = 0; 	// the most largest
 	largest2 = 0;	// second largest
-	/* main algorithm for exercise 1 */	
+	/* main algorithm for exercise */	
 	for( int i = 0; i < arguments; ++i )
 	{
 		if( largest1 < _arr[ i ] )
