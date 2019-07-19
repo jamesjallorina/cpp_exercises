@@ -3,8 +3,7 @@
 1. Write a program in C to show the basic declaration of pointer. Go to the editor
 Expected Output :
 
- Pointer : Show the basic declaration of pointer :                                                            
--------------------------------------------------------                                                       
+ Pointer : Show the basic declaration of pointer :                                                                                                                  
  Here is m=10, n and o are two integer variable and *z is an integer                                          
                                                                                                               
  z stores the address of m  = 0x7ffd40630d44                                                                  
@@ -43,31 +42,31 @@ Address of m : 0x7ffcc3ad291c
 Expected Output :
 
 Pointer : Demonstrate the use of & and * operator :                                                          
---------------------------------------------------------                                                      
+                                                      
  m = 300                                                                                                      
  fx = 300.600006                                                                                              
  cht = z                                                                                                      
                                                                                                               
  Using & operator :                                                                                           
------------------------                                                                                       
+                                                                                 
  address of m = 0x7ffda2eeeec8                                                                                
  address of fx = 0x7ffda2eeeecc                                                                               
  address of cht = 0x7ffda2eeeec7                                                                              
                                                                                                               
  Using & and * operator :                                                                                     
------------------------------                                                                                 
+                                                                            
  value at address of m = 300                                                                                  
  value at address of fx = 300.600006                                                                          
  value at address of cht = z                      
 
 Using only pointer variable :                                                                                
-----------------------------------                                                                            
+                                                                          
  address of m = 0x7ffda2eeeec8                                                                                
  address of fx = 0x7ffda2eeeecc                                                                               
  address of cht = 0x7ffda2eeeec7                                                                              
                                                                                                               
  Using only pointer operator :                                                                                
-----------------------------------                                                                            
+                                                                         
  value at address of m = 300                                                                                  
  value at address of fx= 300.600006                                                                           
  value at address of cht= z            
@@ -281,6 +280,6 @@ Input a string : w3resource
 Expected Output :
 
  Pointer : Print a string in reverse order :                                                                  
-------------------------------------------------                                                              
+                                                             
  Input a string : w3resource                                                                                  
  Reverse of the string is : ecruoser3w
