@@ -13,12 +13,12 @@ cd /usr/src/gtest
 sudo cmake CMakeLists.txt
 sudo make
  
-# copy or symlink libgtest.a and libgtest_main.a to your /usr/lib folder
+### copy or symlink libgtest.a and libgtest_main.a to your /usr/lib folder
 sudo cp -a *.a /usr/lib
 
 cd /usr/src/gmock
 sudo cmake CMakeLists.txt
 sudo make
 
-# copy or symlink libgmock.a and libgmock_main.a to your /usr/lib folder
+### copy or symlink libgmock.a and libgmock_main.a to your /usr/lib folder
 sudo cp -a *.a /usr/lib
