@@ -2,4 +2,5 @@
 *.txt
 *.o
 *.so
+*.swp
 build
