@@ -1,3 +1,3 @@
-## Introduction to C++ Exercises Only
+## cpp_exercises
 
-This is an approach to C++ from Beginner/Intermidiate ( Teaching C++98 to newcomer )
+This is repository contains c++ exercises some are coded in modern c++ and some are pre c++11
